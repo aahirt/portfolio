@@ -3,11 +3,11 @@ document.getElementById('toggleTheme').addEventListener('click', () => {
   document.body.classList.toggle('dark');
 });
 
-// Contact form submission placeholder
-document.getElementById('contactForm').addEventListener('submit', (e) => {
-  e.preventDefault();
-  alert("Message sent (not really — this is front-end only).");
-});
+// // Contact form submission placeholder
+// document.getElementById('contactForm').addEventListener('submit', (e) => {
+//   e.preventDefault();
+//   alert("Message sent (not really — this is front-end only).");
+// });
 
 
 const buttons = document.querySelectorAll(".toggle-btn");

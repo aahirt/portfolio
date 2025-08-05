@@ -87,7 +87,7 @@ header .container {
 }
 
 body.dark .project-card {
-  background: #222;
+  background: #dedbdb;
 }
 
 .project-card:hover {
