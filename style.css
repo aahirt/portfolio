@@ -204,7 +204,7 @@ footer {
 }
 .sub-list {
   list-style: none;
-  padding-left: 20px;
+  padding-left: 10px;
   margin: 10px 0;
   display: none; /* Hidden by default */
 }
@@ -216,6 +216,60 @@ footer {
   border-radius: 4px;
 }
 
+  
+
+    .job-card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .job-header {
+      font-size: 1.3em;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .job-subheader {
+      color: #555;
+      margin-bottom: 10px;
+    }
+body.dark .job-card {
+  background: #222;
+}
+    .expand-btn {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      font-size: 14px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .job-details {
+      display: none;
+      margin-top: 15px;
+      padding-top: 10px;
+      border-top: 1px solid #ddd;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .tech-used span {
+      background: #e0e0e0;
+      padding: 4px 8px;
+      border-radius: 5px;
+      margin: 2px;
+      display: inline-block;
+      font-size: 0.9em;
+    }
 
 
 /* Responsive styling */
