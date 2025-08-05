@@ -15,10 +15,12 @@
       <nav>
         <ul class="nav-links">
           <li><a href="#">Home</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certifications">Certifications</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#labs">Labs</a></li>
-          <li><a href="#labs">Resume</a></li>
+          <li><a href="#resume">Resume</a></li>
           <!--<li><a href="#contact">Contact</a></li>-->
           <li><button id="toggleTheme">🌓</button></li>
         </ul>
@@ -39,9 +41,9 @@
   <section id="about" class="section">
     <div class="container">
       <div class="text">
-       <p class="greeting">HELLO!</p>
+        <p class="greeting">HELLO!</p>
         <h1>I Am Athira K</h1>
-        </div>
+      </div>
       <p>
         I’m a passionate software developer with 1+ years of experience in building web apps and recently transitioned
         into ethical hacking and penetration testing. A highly motivated and security-conscious Software Developer with
@@ -54,6 +56,69 @@
       </p>
     </div>
   </section>
+
+  <section id="experience" class="section">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="job-card">
+        <div class="job-header">Software Engineer</div>
+        <div class="job-subheader">UST Global Inc. – Thiruvananthapuram, Kerala</div>
+        <div class="job-subheader">Full-time | September 2021 – March 2023</div>
+
+        <button class="expand-btn" onclick="toggleExperience()">Show Details</button>
+
+        <div class="job-details" id="experienceDetails">
+          <h4>➤ Java Developer</h4>
+          <p><strong>Designation:</strong> Developer 1 – Software Engineering</p>
+          <p><strong>Duration:</strong> Jan 13, 2022 – Mar 31, 2023</p>
+          <p><strong>Responsibilities:</strong></p>
+          <ul>
+            <li>Developed back-end components for enterprise applications.</li>
+            <li>Ensured performance, scalability, and secure code practices.</li>
+            <li>Collaborated with UI teams using JavaScript, HTML, and XML.</li>
+            <li>Wrote and optimized SQL queries for data handling.</li>
+          </ul>
+          <p class="tech-used"><strong>Technologies Used:</strong><br>
+            <span>Java 8</span><span>JavaScript</span><span>Apache
+              Tomcat</span><span>SQL</span><span>HTML</span><span>XML</span>
+          </p>
+
+          <h4>➤ Associate Software Developer – Fresher/Talent Pool</h4>
+          <p><strong>Duration:</strong> Sep 27, 2021 – Dec 15, 2021</p>
+          <p><strong>Responsibilities:</strong></p>
+          <ul>
+            <li>Developed a Spring Boot application for user registration and e-commerce transactions.</li>
+            <li>Integrated external APIs and used Angular for the front-end.</li>
+            <li>Worked on AWS deployment basics.</li>
+          </ul>
+          <p class="tech-used"><strong>Technologies Used:</strong><br>
+            <span>Java</span><span>Spring
+              Boot</span><span>MySQL</span><span>HTML/CSS</span><span>Angular</span><span>AWS</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="certifications" class="section">
+    <div class="container">
+      <h2>Trainings & Certifications</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>CPT</h3>
+          <a href="assets\CPT_certificate.pdf" target="_blank">Certificate</a>
+
+        </div>
+        <div class="project-card">
+          <h3>CEH</h3>
+          <p>Currently Pursuing</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
 
   <section id="skills" class="section">
     <div class="container">
@@ -76,7 +141,7 @@
               Netcat, Hydra, Cewl
             </li>
             <li>OS: Kali Linux, Parrot OS, Ubuntu, Windows </li>
-            <li>Languages: Python, Bash, JavaScript (basic), HTML</li>
+            <li>Languages: Java, Bash, JavaScript (basic), HTML</li>
             <li>Skills: Web App Testing, Network Scanning, OWASP Top 10, Vulnerability
               Assessment </li>
             <li>Platforms: TryHackMe, PortSwigger Academy, Pentest Garage</li>
@@ -116,7 +181,8 @@
       <div class="project-grid">
         <div class="project-card">
           <h3>Vulnerability Scan on Local Network</h3>
-          <a href="assets\AthiraK_Nmap_Vulnerability_Scanning_Report.pdf" target="_blank">Vulnerability Scanning Report (Nmap)</a>
+          <a href="assets\AthiraK_Nmap_Vulnerability_Scanning_Report.pdf" target="_blank">Vulnerability Scanning Report
+            (Nmap)</a>
 
         </div>
         <div class="project-card">
@@ -124,7 +190,7 @@
           <a href="assets/ATHIRA_K_CPT-Report.pdf" target="_blank">Penetration Testing Report</a>
 
         </div>
-        
+
       </div>
     </div>
   </section>
@@ -139,17 +205,20 @@
 
         </div>
         <div class="lab-card">
-          <button class="lab-card-btn" onclick="window.open('https://pentestgarage.com/dashboard/profile/aahirt', '_blank')">Pentest
+          <button class="lab-card-btn"
+            onclick="window.open('https://pentestgarage.com/dashboard/profile/aahirt', '_blank')">Pentest
             Garage</button>
         </div>
         <div class="lab-card">
-          <button class="lab-card-btn" onclick="window.open('https://app.hackthebox.com/profile/2464482', '_blank')">HackTheBox</button>
+          <button class="lab-card-btn"
+            onclick="window.open('https://app.hackthebox.com/profile/2464482', '_blank')">HackTheBox</button>
         </div>
         <div class="lab-card">
           <button class="lab-card-btn"
-            onclick="window.open('https://portswigger.net/users/athira_k', '_blank')">PortSwigger Web Security Academy</button>
+            onclick="window.open('https://portswigger.net/users/athira_k', '_blank')">PortSwigger Web Security
+            Academy</button>
         </div>
-        
+
       </div>
     </div>
   </section>
@@ -162,7 +231,7 @@
     </div>
   </section>
 
-<!--
+  <!--
   <section id="contact" class="section">
     <div class="container">
       <h2>Contact</h2>
