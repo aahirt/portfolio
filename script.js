@@ -18,3 +18,16 @@ buttons.forEach(btn => {
     sublist.style.display = sublist.style.display === "block" ? "none" : "block";
   });
 });
+
+
+    function toggleExperience() {
+      const details = document.getElementById('experienceDetails');
+      const button = document.querySelector('.expand-btn');
+      if (details.style.display === 'none' || details.style.display === '') {
+        details.style.display = 'block';
+        button.textContent = 'Hide Details';
+      } else {
+        details.style.display = 'none';
+        button.textContent = 'Show Details';
+      }
+    }
