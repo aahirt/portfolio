@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">Athira K</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#labs">Labs</a></li>
+          <li><a href="#labs">Resume</a></li>
+          <!--<li><a href="#contact">Contact</a></li>-->
+          <li><button id="toggleTheme">🌓</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+
+  <section class="hero">
+    <div class="container">
+      <img src="assets/profile.jpg" alt="Profile" class="profile-img" />
+      <h2>Software Developer & Cybersecurity Enthusiast</h2>
+      <!-- <p>Building secure apps with creativity and code.</p>-->
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <div class="text">
+       <p class="greeting">HELLO!</p>
+        <h1>I Am Athira K</h1>
+        </div>
+      <p>
+        I’m a passionate software developer with 1+ years of experience in building web apps and recently transitioned
+        into ethical hacking and penetration testing. A highly motivated and security-conscious Software Developer with
+        hands-on experience in
+        full-stack development and a Certified Penetration Tester. Skilled in designing robust
+        applications and identifying vulnerabilities, aiming to bridge the gap between secure coding
+        and high-performing software systems. Seeking a role where I can contribute to
+        development while applying my knowledge of secure coding practices and vulnerability
+        assessment.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="main-list">
+        <li>
+          <button class="toggle-btn">Software Development</button>
+          <ul class="sub-list">
+            <li>Java Full Stack (Java, HTML, CSS, JavaScript, SQL, XML) </li>
+            <li>Frameworks: Spring Boot, REST, Angular</li>
+            <li>Web/Application Servers: Apache Tomcat </li>
+            <li>IDEs: Eclipse, IntelliJ IDEA, STS, Visual Studio Code, Postman</li>
+            <li>Databases: MySQL, SQLDeveloper</li>
+          </ul>
+        </li>
+        <li>
+          <button class="toggle-btn">Cybersecurity</button>
+          <ul class="sub-list">
+            <li>Tools: Nmap, Burp Suite, Metasploit, Wireshark, Nikto, SQLmap, Gobuster,
+              Netcat, Hydra, Cewl
+            </li>
+            <li>OS: Kali Linux, Parrot OS, Ubuntu, Windows </li>
+            <li>Languages: Python, Bash, JavaScript (basic), HTML</li>
+            <li>Skills: Web App Testing, Network Scanning, OWASP Top 10, Vulnerability
+              Assessment </li>
+            <li>Platforms: TryHackMe, PortSwigger Academy, Pentest Garage</li>
+          </ul>
+        </li>
+        <li>
+          <button class="toggle-btn">Embedded Systems & Electronics</button>
+          <ul class="sub-list">
+            <li>Languages: C, VHDL, Verilog, Embedded C, Assembly (8051)</li>
+            <li>Tools: Xilinx, LPCXpresso, KEIL, Altium, Proteus, MATLAB, Mentor Graphics </li>
+          </ul>
+        </li>
+        <li>
+          <button class="toggle-btn">Others</button>
+          <ul class="sub-list">
+            <li>Cloud: Basic AWS </li>
+            <li>Version Control: Git</li>
+            <li>Virtualization: VMware, VirtualBox</li>
+            <li>Documentation: MS Office </li>
+          </ul>
+        </li>
+        <li>
+          <button class="toggle-btn">Soft Skills</button>
+          <ul class="sub-list">
+            <li>Strong problem-solving & analytical skills </li>
+            <li>Team collaboration and adaptability</li>
+            <li>Professional communication and documentation</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>CPT Project</h3>
+          <a href="assets/ATHIRA_K_CPT-Report.pdf" target="_blank">PENETRATION TESTING REPORT</a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="labs" class="section">
+    <div class="container">
+      <h2>Cybersecurity Labs</h2>
+      <div class="lab-grid">
+        <div class="lab-card">
+          <button class="lab-card-btn"
+            onclick="window.open('https://tryhackme.com/p/aahirt', '_blank')">TryHackMe</button>
+
+        </div>
+        <div class="lab-card">
+          <button class="lab-card-btn" onclick="window.open('https://pentestgarage.com/dashboard/profile/aahirt', '_blank')">Pentest
+            Garage</button>
+        </div>
+        <div class="lab-card">
+          <button class="lab-card-btn" onclick="window.open('https://app.hackthebox.com/profile/2464482', '_blank')">HackTheBox</button>
+        </div>
+        <div class="lab-card">
+          <button class="lab-card-btn"
+            onclick="window.open('https://portswigger.net/users/athira_k', '_blank')">PortSwigger Web Security Academy</button>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+  <section id="resume" class="resume">
+    <div class="container">
+      <h2>Resume</h2>
+      <a href="assets\Athira_penetration_tester_resume.pdf" target="_blank">View</a>
+    </div>
+  </section>
+
+<!--
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+-->
+
+  <footer>
+    <p>&copy; 2025 Athira K | All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
